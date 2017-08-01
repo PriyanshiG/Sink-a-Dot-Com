@@ -146,7 +146,6 @@ class GameHelper{
 			 char t = (char)('A' + column);
 			 temp = Character.toString(t);
 			 alphacells.add(temp.concat(Integer.toString(row)));
-			 System.out.println(temp.concat(Integer.toString(row)));
 			 y++;
 			}
 
